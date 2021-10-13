@@ -110,6 +110,9 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
+    volumes:
+      - ./requirements.txt:/requirements.txt
+
 
   airflow-scheduler:
     <<: *airflow-common
@@ -124,6 +127,8 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
+    volumes:
+      - ./requirements.txt:/requirements.txt
 
   airflow-worker:
     <<: *airflow-common
@@ -145,6 +150,9 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
+    volumes:
+      - ./requirements.txt:/requirements.txt
+
 
   airflow-triggerer:
     <<: *airflow-common
