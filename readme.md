@@ -1,6 +1,8 @@
-## Airflow System to orchestrate personal Neo4j projects
+## Airflow to orchestrate personal Neo4j projects
 
+Graphs to orchestrate:
 
+* Olympics
 
 
 ## Problems:
