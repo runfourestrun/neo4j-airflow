@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38db231d-2880-465b-8cdf-e82572c2a899" name="Changes" comment="Trying to get a DAG visibile..">
-      <change afterPath="$PROJECT_DIR$/dags/test2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-cleanup.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
+    <list default="true" id="38db231d-2880-465b-8cdf-e82572c2a899" name="Changes" comment="creating a dockerfile and adding a cleanup shell script">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +28,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -120,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634224386985</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="creating a dockerfile and adding a cleanup shell script">
+      <created>1634226293454</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1634226293454</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,12 +142,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="adding pyhton libs" />
     <MESSAGE value="adding airflow providers" />
     <MESSAGE value="First commit" />
     <MESSAGE value="adding a .gitignore" />
     <MESSAGE value="editing docker-compose to include requirements.txt" />
     <MESSAGE value="Trying to get a DAG visibile.." />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to get a DAG visibile.." />
+    <MESSAGE value="creating a dockerfile and adding a cleanup shell script" />
+    <option name="LAST_COMMIT_MESSAGE" value="creating a dockerfile and adding a cleanup shell script" />
   </component>
 </project>
