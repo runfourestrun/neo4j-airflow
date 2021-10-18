@@ -8,5 +8,6 @@ RUN pip install --no-cache-dir neo4j==4.3.4  \
 
 COPY config/airflow.cfg /opt/airflow/
 
+COPY requirements.txt /opt/airflow/
 
 COPY   dags/test.py /opt/airflow/dags
