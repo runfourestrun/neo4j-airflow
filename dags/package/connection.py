@@ -7,7 +7,7 @@ class Neo4j():
     """
 
     def __init__(self, *args, **kwargs):
-        url = kwargs.get('url', 'bolt://98.171.34.178:7687/')
+        url = kwargs.get('url', 'bolt://127.0.0.1:7687/')
         username = kwargs.get('username', 'neo4j')
         password = kwargs.get('password', 'letmein')
         database = kwargs.get('database', 'neo4j')

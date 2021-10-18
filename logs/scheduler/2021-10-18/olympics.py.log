@@ -2121,3 +2121,445 @@ ImportError: cannot import name 'load_athletes'
 [2021-10-18 19:58:10,487] {logging_mixin.py:109} INFO - [2021-10-18 19:58:10,487] {dag.py:2389} INFO - Sync 1 DAGs
 [2021-10-18 19:58:10,499] {logging_mixin.py:109} INFO - [2021-10-18 19:58:10,499] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
 [2021-10-18 19:58:10,507] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.156 seconds
+[2021-10-18 20:03:06,782] {processor.py:163} INFO - Started process (PID=45) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:03:06,785] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:03:06,786] {logging_mixin.py:109} INFO - [2021-10-18 20:03:06,786] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:03:06,999] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:03:10,163] {logging_mixin.py:109} INFO - [2021-10-18 20:03:10,163] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2021-10-18 20:03:11,178] {logging_mixin.py:109} INFO - [2021-10-18 20:03:11,178] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2021-10-18 20:03:11,278] {logging_mixin.py:109} INFO - [2021-10-18 20:03:11,278] {manager.py:496} INFO - Created Permission View: can read on DAG:Neo4jOlympicsDemo
+[2021-10-18 20:03:11,286] {logging_mixin.py:109} INFO - [2021-10-18 20:03:11,286] {manager.py:496} INFO - Created Permission View: can edit on DAG:Neo4jOlympicsDemo
+[2021-10-18 20:03:11,288] {logging_mixin.py:109} INFO - [2021-10-18 20:03:11,287] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:03:11,298] {logging_mixin.py:109} INFO - [2021-10-18 20:03:11,297] {dag.py:2408} INFO - Creating ORM DAG for Neo4jOlympicsDemo
+[2021-10-18 20:03:11,305] {logging_mixin.py:109} INFO - [2021-10-18 20:03:11,305] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:03:11,315] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 4.537 seconds
+[2021-10-18 20:03:41,395] {processor.py:163} INFO - Started process (PID=76) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:03:41,396] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:03:41,397] {logging_mixin.py:109} INFO - [2021-10-18 20:03:41,397] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:03:41,520] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:03:41,530] {logging_mixin.py:109} INFO - [2021-10-18 20:03:41,530] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:03:41,542] {logging_mixin.py:109} INFO - [2021-10-18 20:03:41,542] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:03:41,550] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.158 seconds
+[2021-10-18 20:04:11,624] {processor.py:163} INFO - Started process (PID=108) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:04:11,626] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:04:11,627] {logging_mixin.py:109} INFO - [2021-10-18 20:04:11,627] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:04:11,750] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:04:11,759] {logging_mixin.py:109} INFO - [2021-10-18 20:04:11,759] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:04:11,784] {logging_mixin.py:109} INFO - [2021-10-18 20:04:11,784] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:04:11,796] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.176 seconds
+[2021-10-18 20:04:41,871] {processor.py:163} INFO - Started process (PID=130) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:04:41,873] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:04:41,874] {logging_mixin.py:109} INFO - [2021-10-18 20:04:41,874] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:04:41,996] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:04:42,005] {logging_mixin.py:109} INFO - [2021-10-18 20:04:42,004] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:04:42,015] {logging_mixin.py:109} INFO - [2021-10-18 20:04:42,015] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:04:42,022] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.156 seconds
+[2021-10-18 20:05:12,081] {processor.py:163} INFO - Started process (PID=161) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:05:12,083] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:05:12,084] {logging_mixin.py:109} INFO - [2021-10-18 20:05:12,084] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:05:12,215] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:05:12,224] {logging_mixin.py:109} INFO - [2021-10-18 20:05:12,224] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:05:12,236] {logging_mixin.py:109} INFO - [2021-10-18 20:05:12,236] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:05:12,245] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.167 seconds
+[2021-10-18 20:05:42,329] {processor.py:163} INFO - Started process (PID=182) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:05:42,331] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:05:42,333] {logging_mixin.py:109} INFO - [2021-10-18 20:05:42,332] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:05:42,455] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:05:42,468] {logging_mixin.py:109} INFO - [2021-10-18 20:05:42,468] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:05:42,482] {logging_mixin.py:109} INFO - [2021-10-18 20:05:42,482] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:05:42,492] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.170 seconds
+[2021-10-18 20:06:12,560] {processor.py:163} INFO - Started process (PID=214) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:06:12,562] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:06:12,563] {logging_mixin.py:109} INFO - [2021-10-18 20:06:12,563] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:06:12,705] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:06:12,714] {logging_mixin.py:109} INFO - [2021-10-18 20:06:12,714] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:06:12,726] {logging_mixin.py:109} INFO - [2021-10-18 20:06:12,726] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:06:12,734] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.178 seconds
+[2021-10-18 20:06:42,796] {processor.py:163} INFO - Started process (PID=245) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:06:42,797] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:06:42,798] {logging_mixin.py:109} INFO - [2021-10-18 20:06:42,798] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:06:42,928] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:06:42,940] {logging_mixin.py:109} INFO - [2021-10-18 20:06:42,940] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:06:42,955] {logging_mixin.py:109} INFO - [2021-10-18 20:06:42,954] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:06:42,964] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.171 seconds
+[2021-10-18 20:07:13,048] {processor.py:163} INFO - Started process (PID=266) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:07:13,049] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:07:13,050] {logging_mixin.py:109} INFO - [2021-10-18 20:07:13,050] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:07:13,169] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:07:13,178] {logging_mixin.py:109} INFO - [2021-10-18 20:07:13,178] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:07:13,189] {logging_mixin.py:109} INFO - [2021-10-18 20:07:13,189] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:07:13,197] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.152 seconds
+[2021-10-18 20:07:43,276] {processor.py:163} INFO - Started process (PID=297) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:07:43,278] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:07:43,279] {logging_mixin.py:109} INFO - [2021-10-18 20:07:43,279] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:07:43,436] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:07:43,448] {logging_mixin.py:109} INFO - [2021-10-18 20:07:43,448] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:07:43,464] {logging_mixin.py:109} INFO - [2021-10-18 20:07:43,463] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:07:43,476] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.204 seconds
+[2021-10-18 20:08:13,546] {processor.py:163} INFO - Started process (PID=318) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:08:13,548] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:08:13,549] {logging_mixin.py:109} INFO - [2021-10-18 20:08:13,549] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:08:13,682] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:08:13,697] {logging_mixin.py:109} INFO - [2021-10-18 20:08:13,697] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:08:13,711] {logging_mixin.py:109} INFO - [2021-10-18 20:08:13,711] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:08:13,719] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.177 seconds
+[2021-10-18 20:08:43,791] {processor.py:163} INFO - Started process (PID=350) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:08:43,794] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:08:43,795] {logging_mixin.py:109} INFO - [2021-10-18 20:08:43,795] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:08:44,237] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:08:44,248] {logging_mixin.py:109} INFO - [2021-10-18 20:08:44,248] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:08:44,263] {logging_mixin.py:109} INFO - [2021-10-18 20:08:44,262] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:08:44,271] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.485 seconds
+[2021-10-18 20:09:14,355] {processor.py:163} INFO - Started process (PID=371) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:09:14,356] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:09:14,357] {logging_mixin.py:109} INFO - [2021-10-18 20:09:14,357] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:09:14,478] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:09:14,487] {logging_mixin.py:109} INFO - [2021-10-18 20:09:14,487] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:09:14,497] {logging_mixin.py:109} INFO - [2021-10-18 20:09:14,497] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:09:14,504] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.154 seconds
+[2021-10-18 20:09:44,571] {processor.py:163} INFO - Started process (PID=403) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:09:44,573] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:09:44,574] {logging_mixin.py:109} INFO - [2021-10-18 20:09:44,574] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:09:44,694] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:09:44,702] {logging_mixin.py:109} INFO - [2021-10-18 20:09:44,702] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:09:44,713] {logging_mixin.py:109} INFO - [2021-10-18 20:09:44,713] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:09:44,720] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.153 seconds
+[2021-10-18 20:10:14,781] {processor.py:163} INFO - Started process (PID=425) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:10:14,783] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:10:14,784] {logging_mixin.py:109} INFO - [2021-10-18 20:10:14,784] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:10:14,899] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:10:14,909] {logging_mixin.py:109} INFO - [2021-10-18 20:10:14,908] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:10:14,921] {logging_mixin.py:109} INFO - [2021-10-18 20:10:14,921] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:10:14,929] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.151 seconds
+[2021-10-18 20:10:45,003] {processor.py:163} INFO - Started process (PID=456) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:10:45,004] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:10:45,006] {logging_mixin.py:109} INFO - [2021-10-18 20:10:45,006] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:10:45,152] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:10:45,165] {logging_mixin.py:109} INFO - [2021-10-18 20:10:45,164] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:10:45,179] {logging_mixin.py:109} INFO - [2021-10-18 20:10:45,179] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:10:45,188] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.190 seconds
+[2021-10-18 20:11:15,266] {processor.py:163} INFO - Started process (PID=478) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:11:15,268] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:11:15,269] {logging_mixin.py:109} INFO - [2021-10-18 20:11:15,269] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:11:15,385] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:11:15,394] {logging_mixin.py:109} INFO - [2021-10-18 20:11:15,393] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:11:15,405] {logging_mixin.py:109} INFO - [2021-10-18 20:11:15,405] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:11:15,412] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.149 seconds
+[2021-10-18 20:11:45,470] {processor.py:163} INFO - Started process (PID=509) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:11:45,472] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:11:45,473] {logging_mixin.py:109} INFO - [2021-10-18 20:11:45,473] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:11:45,589] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:11:45,598] {logging_mixin.py:109} INFO - [2021-10-18 20:11:45,597] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:11:45,608] {logging_mixin.py:109} INFO - [2021-10-18 20:11:45,608] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:11:45,620] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.153 seconds
+[2021-10-18 20:17:20,064] {processor.py:163} INFO - Started process (PID=34) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:17:20,067] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:17:20,068] {logging_mixin.py:109} INFO - [2021-10-18 20:17:20,068] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:17:20,292] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:17:23,385] {logging_mixin.py:109} INFO - [2021-10-18 20:17:23,385] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2021-10-18 20:17:24,345] {logging_mixin.py:109} INFO - [2021-10-18 20:17:24,345] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2021-10-18 20:17:24,446] {logging_mixin.py:109} INFO - [2021-10-18 20:17:24,446] {manager.py:496} INFO - Created Permission View: can read on DAG:Neo4jOlympicsDemo
+[2021-10-18 20:17:24,456] {logging_mixin.py:109} INFO - [2021-10-18 20:17:24,455] {manager.py:496} INFO - Created Permission View: can edit on DAG:Neo4jOlympicsDemo
+[2021-10-18 20:17:24,457] {logging_mixin.py:109} INFO - [2021-10-18 20:17:24,456] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:17:24,466] {logging_mixin.py:109} INFO - [2021-10-18 20:17:24,465] {dag.py:2408} INFO - Creating ORM DAG for Neo4jOlympicsDemo
+[2021-10-18 20:17:24,475] {logging_mixin.py:109} INFO - [2021-10-18 20:17:24,475] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:17:24,485] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 4.425 seconds
+[2021-10-18 20:17:54,550] {processor.py:163} INFO - Started process (PID=74) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:17:54,552] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:17:54,553] {logging_mixin.py:109} INFO - [2021-10-18 20:17:54,553] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:17:54,672] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:17:54,685] {logging_mixin.py:109} INFO - [2021-10-18 20:17:54,684] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:17:54,700] {logging_mixin.py:109} INFO - [2021-10-18 20:17:54,700] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:17:54,710] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.163 seconds
+[2021-10-18 20:18:24,781] {processor.py:163} INFO - Started process (PID=107) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:18:24,783] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:18:24,784] {logging_mixin.py:109} INFO - [2021-10-18 20:18:24,784] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:18:24,900] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:18:24,910] {logging_mixin.py:109} INFO - [2021-10-18 20:18:24,909] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:18:24,922] {logging_mixin.py:109} INFO - [2021-10-18 20:18:24,922] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:18:24,930] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.152 seconds
+[2021-10-18 20:18:54,996] {processor.py:163} INFO - Started process (PID=129) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:18:54,998] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:18:55,000] {logging_mixin.py:109} INFO - [2021-10-18 20:18:54,999] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:18:55,129] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:18:55,139] {logging_mixin.py:109} INFO - [2021-10-18 20:18:55,139] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:18:55,152] {logging_mixin.py:109} INFO - [2021-10-18 20:18:55,152] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:18:55,159] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.168 seconds
+[2021-10-18 20:19:25,232] {processor.py:163} INFO - Started process (PID=160) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:19:25,233] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:19:25,234] {logging_mixin.py:109} INFO - [2021-10-18 20:19:25,234] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:19:25,357] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:19:25,366] {logging_mixin.py:109} INFO - [2021-10-18 20:19:25,366] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:19:25,376] {logging_mixin.py:109} INFO - [2021-10-18 20:19:25,376] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:19:25,383] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.155 seconds
+[2021-10-18 20:19:55,444] {processor.py:163} INFO - Started process (PID=182) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:19:55,446] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:19:55,447] {logging_mixin.py:109} INFO - [2021-10-18 20:19:55,447] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:19:55,574] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:19:55,583] {logging_mixin.py:109} INFO - [2021-10-18 20:19:55,583] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:19:55,595] {logging_mixin.py:109} INFO - [2021-10-18 20:19:55,595] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:19:55,603] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.163 seconds
+[2021-10-18 20:20:25,683] {processor.py:163} INFO - Started process (PID=214) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:20:25,685] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:20:25,686] {logging_mixin.py:109} INFO - [2021-10-18 20:20:25,686] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:20:25,804] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:20:25,812] {logging_mixin.py:109} INFO - [2021-10-18 20:20:25,812] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:20:25,823] {logging_mixin.py:109} INFO - [2021-10-18 20:20:25,823] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:20:25,830] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.151 seconds
+[2021-10-18 20:20:55,898] {processor.py:163} INFO - Started process (PID=247) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:20:55,899] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:20:55,901] {logging_mixin.py:109} INFO - [2021-10-18 20:20:55,900] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:20:56,024] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:20:56,033] {logging_mixin.py:109} INFO - [2021-10-18 20:20:56,033] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:20:56,046] {logging_mixin.py:109} INFO - [2021-10-18 20:20:56,046] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:20:56,053] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.159 seconds
+[2021-10-18 20:21:26,128] {processor.py:163} INFO - Started process (PID=269) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:21:26,130] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:21:26,131] {logging_mixin.py:109} INFO - [2021-10-18 20:21:26,131] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:21:26,257] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:21:26,267] {logging_mixin.py:109} INFO - [2021-10-18 20:21:26,266] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:21:26,278] {logging_mixin.py:109} INFO - [2021-10-18 20:21:26,278] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:21:26,286] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.162 seconds
+[2021-10-18 20:21:56,364] {processor.py:163} INFO - Started process (PID=303) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:21:56,372] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:21:56,373] {logging_mixin.py:109} INFO - [2021-10-18 20:21:56,373] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:21:56,532] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:21:56,542] {logging_mixin.py:109} INFO - [2021-10-18 20:21:56,542] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:21:56,554] {logging_mixin.py:109} INFO - [2021-10-18 20:21:56,553] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:21:56,561] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.216 seconds
+[2021-10-18 20:22:26,659] {processor.py:163} INFO - Started process (PID=325) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:22:26,660] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:22:26,662] {logging_mixin.py:109} INFO - [2021-10-18 20:22:26,661] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:22:26,786] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:22:26,795] {logging_mixin.py:109} INFO - [2021-10-18 20:22:26,795] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:22:26,807] {logging_mixin.py:109} INFO - [2021-10-18 20:22:26,807] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:22:26,815] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.159 seconds
+[2021-10-18 20:22:56,881] {processor.py:163} INFO - Started process (PID=356) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:22:56,883] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:22:56,884] {logging_mixin.py:109} INFO - [2021-10-18 20:22:56,884] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:22:57,006] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:22:57,017] {logging_mixin.py:109} INFO - [2021-10-18 20:22:57,016] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:22:57,029] {logging_mixin.py:109} INFO - [2021-10-18 20:22:57,029] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:22:57,035] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.157 seconds
+[2021-10-18 20:29:13,275] {processor.py:163} INFO - Started process (PID=43) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:29:13,280] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:29:13,282] {logging_mixin.py:109} INFO - [2021-10-18 20:29:13,282] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:29:13,566] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:29:16,666] {logging_mixin.py:109} INFO - [2021-10-18 20:29:16,666] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2021-10-18 20:29:17,666] {logging_mixin.py:109} INFO - [2021-10-18 20:29:17,666] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2021-10-18 20:29:17,768] {logging_mixin.py:109} INFO - [2021-10-18 20:29:17,768] {manager.py:496} INFO - Created Permission View: can edit on DAG:Neo4jOlympicsDemo
+[2021-10-18 20:29:17,778] {logging_mixin.py:109} INFO - [2021-10-18 20:29:17,777] {manager.py:496} INFO - Created Permission View: can read on DAG:Neo4jOlympicsDemo
+[2021-10-18 20:29:17,780] {logging_mixin.py:109} INFO - [2021-10-18 20:29:17,778] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:29:17,792] {logging_mixin.py:109} INFO - [2021-10-18 20:29:17,791] {dag.py:2408} INFO - Creating ORM DAG for Neo4jOlympicsDemo
+[2021-10-18 20:29:17,799] {logging_mixin.py:109} INFO - [2021-10-18 20:29:17,799] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:29:17,810] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 4.550 seconds
+[2021-10-18 20:29:47,904] {processor.py:163} INFO - Started process (PID=75) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:29:47,907] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:29:47,908] {logging_mixin.py:109} INFO - [2021-10-18 20:29:47,908] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:29:48,045] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:29:48,055] {logging_mixin.py:109} INFO - [2021-10-18 20:29:48,055] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:29:48,067] {logging_mixin.py:109} INFO - [2021-10-18 20:29:48,067] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:29:48,074] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.174 seconds
+[2021-10-18 20:30:18,126] {processor.py:163} INFO - Started process (PID=107) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:30:18,129] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:30:18,130] {logging_mixin.py:109} INFO - [2021-10-18 20:30:18,130] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:30:18,252] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:30:18,263] {logging_mixin.py:109} INFO - [2021-10-18 20:30:18,262] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:30:18,274] {logging_mixin.py:109} INFO - [2021-10-18 20:30:18,274] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:30:18,282] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.159 seconds
+[2021-10-18 20:30:48,347] {processor.py:163} INFO - Started process (PID=130) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:30:48,349] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:30:48,350] {logging_mixin.py:109} INFO - [2021-10-18 20:30:48,350] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:30:48,480] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:30:48,489] {logging_mixin.py:109} INFO - [2021-10-18 20:30:48,489] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:30:48,501] {logging_mixin.py:109} INFO - [2021-10-18 20:30:48,500] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:30:48,507] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.164 seconds
+[2021-10-18 20:31:18,573] {processor.py:163} INFO - Started process (PID=161) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:31:18,575] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:31:18,577] {logging_mixin.py:109} INFO - [2021-10-18 20:31:18,577] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:31:18,695] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:31:18,704] {logging_mixin.py:109} INFO - [2021-10-18 20:31:18,704] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:31:18,717] {logging_mixin.py:109} INFO - [2021-10-18 20:31:18,717] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:31:18,725] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.155 seconds
+[2021-10-18 20:31:48,788] {processor.py:163} INFO - Started process (PID=182) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:31:48,791] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:31:48,792] {logging_mixin.py:109} INFO - [2021-10-18 20:31:48,792] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:31:48,918] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:31:48,928] {logging_mixin.py:109} INFO - [2021-10-18 20:31:48,928] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:31:48,940] {logging_mixin.py:109} INFO - [2021-10-18 20:31:48,940] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:31:48,948] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.163 seconds
+[2021-10-18 20:32:19,017] {processor.py:163} INFO - Started process (PID=213) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:32:19,020] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:32:19,021] {logging_mixin.py:109} INFO - [2021-10-18 20:32:19,021] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:32:19,146] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:32:19,156] {logging_mixin.py:109} INFO - [2021-10-18 20:32:19,156] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:32:19,168] {logging_mixin.py:109} INFO - [2021-10-18 20:32:19,168] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:32:19,175] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.162 seconds
+[2021-10-18 20:32:49,260] {processor.py:163} INFO - Started process (PID=244) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:32:49,262] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:32:49,263] {logging_mixin.py:109} INFO - [2021-10-18 20:32:49,263] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:32:49,399] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:32:49,410] {logging_mixin.py:109} INFO - [2021-10-18 20:32:49,409] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:32:49,422] {logging_mixin.py:109} INFO - [2021-10-18 20:32:49,422] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-16T00:00:00+00:00
+[2021-10-18 20:32:49,431] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.174 seconds
+[2021-10-18 20:33:19,493] {processor.py:163} INFO - Started process (PID=270) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:33:19,494] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:33:19,495] {logging_mixin.py:109} INFO - [2021-10-18 20:33:19,495] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:33:19,632] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:33:19,641] {logging_mixin.py:109} INFO - [2021-10-18 20:33:19,641] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:33:19,653] {logging_mixin.py:109} INFO - [2021-10-18 20:33:19,653] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:33:19,659] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.170 seconds
+[2021-10-18 20:33:49,714] {processor.py:163} INFO - Started process (PID=302) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:33:49,717] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:33:49,717] {logging_mixin.py:109} INFO - [2021-10-18 20:33:49,717] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:33:49,849] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:33:49,859] {logging_mixin.py:109} INFO - [2021-10-18 20:33:49,859] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:33:49,876] {logging_mixin.py:109} INFO - [2021-10-18 20:33:49,876] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:33:49,884] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.173 seconds
+[2021-10-18 20:34:19,960] {processor.py:163} INFO - Started process (PID=323) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:34:19,963] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:34:19,963] {logging_mixin.py:109} INFO - [2021-10-18 20:34:19,963] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:34:20,079] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:34:20,089] {logging_mixin.py:109} INFO - [2021-10-18 20:34:20,089] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:34:20,101] {logging_mixin.py:109} INFO - [2021-10-18 20:34:20,100] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:34:20,109] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.151 seconds
+[2021-10-18 20:34:50,184] {processor.py:163} INFO - Started process (PID=355) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:34:50,187] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:34:50,189] {logging_mixin.py:109} INFO - [2021-10-18 20:34:50,188] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:34:50,313] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:34:50,323] {logging_mixin.py:109} INFO - [2021-10-18 20:34:50,323] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:34:50,336] {logging_mixin.py:109} INFO - [2021-10-18 20:34:50,336] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:34:50,345] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.165 seconds
+[2021-10-18 20:35:20,404] {processor.py:163} INFO - Started process (PID=376) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:35:20,406] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:35:20,407] {logging_mixin.py:109} INFO - [2021-10-18 20:35:20,407] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:35:20,522] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:35:20,531] {logging_mixin.py:109} INFO - [2021-10-18 20:35:20,531] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:35:20,542] {logging_mixin.py:109} INFO - [2021-10-18 20:35:20,542] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:35:20,549] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.148 seconds
+[2021-10-18 20:35:50,613] {processor.py:163} INFO - Started process (PID=408) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:35:50,616] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:35:50,617] {logging_mixin.py:109} INFO - [2021-10-18 20:35:50,616] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:35:50,731] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:35:50,740] {logging_mixin.py:109} INFO - [2021-10-18 20:35:50,740] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:35:50,753] {logging_mixin.py:109} INFO - [2021-10-18 20:35:50,753] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:35:50,760] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.153 seconds
+[2021-10-18 20:36:20,823] {processor.py:163} INFO - Started process (PID=430) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:36:20,826] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:36:20,827] {logging_mixin.py:109} INFO - [2021-10-18 20:36:20,827] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:36:20,949] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:36:20,958] {logging_mixin.py:109} INFO - [2021-10-18 20:36:20,958] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:36:20,969] {logging_mixin.py:109} INFO - [2021-10-18 20:36:20,969] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:36:20,978] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.159 seconds
+[2021-10-18 20:36:51,004] {processor.py:163} INFO - Started process (PID=461) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:36:51,021] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:36:51,022] {logging_mixin.py:109} INFO - [2021-10-18 20:36:51,022] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:36:51,143] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:36:51,275] {logging_mixin.py:109} INFO - [2021-10-18 20:36:51,275] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:36:51,298] {logging_mixin.py:109} INFO - [2021-10-18 20:36:51,297] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:36:51,401] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.401 seconds
+[2021-10-18 20:37:21,483] {processor.py:163} INFO - Started process (PID=482) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:37:21,485] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:37:21,486] {logging_mixin.py:109} INFO - [2021-10-18 20:37:21,486] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:37:21,613] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:37:21,650] {logging_mixin.py:109} INFO - [2021-10-18 20:37:21,649] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:37:21,674] {logging_mixin.py:109} INFO - [2021-10-18 20:37:21,674] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:37:21,694] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.216 seconds
+[2021-10-18 20:37:51,773] {processor.py:163} INFO - Started process (PID=513) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:37:51,776] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:37:51,777] {logging_mixin.py:109} INFO - [2021-10-18 20:37:51,777] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:37:51,903] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:37:51,912] {logging_mixin.py:109} INFO - [2021-10-18 20:37:51,912] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:37:51,924] {logging_mixin.py:109} INFO - [2021-10-18 20:37:51,924] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:37:51,932] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.163 seconds
+[2021-10-18 20:38:21,986] {processor.py:163} INFO - Started process (PID=534) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:38:21,987] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:38:21,988] {logging_mixin.py:109} INFO - [2021-10-18 20:38:21,988] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:38:22,109] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:38:22,118] {logging_mixin.py:109} INFO - [2021-10-18 20:38:22,118] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:38:22,130] {logging_mixin.py:109} INFO - [2021-10-18 20:38:22,130] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:38:22,139] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.156 seconds
+[2021-10-18 20:38:52,190] {processor.py:163} INFO - Started process (PID=566) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:38:52,192] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:38:52,193] {logging_mixin.py:109} INFO - [2021-10-18 20:38:52,193] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:38:52,314] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:38:52,323] {logging_mixin.py:109} INFO - [2021-10-18 20:38:52,323] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:38:52,335] {logging_mixin.py:109} INFO - [2021-10-18 20:38:52,335] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:38:52,342] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.156 seconds
+[2021-10-18 20:39:22,406] {processor.py:163} INFO - Started process (PID=588) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:39:22,408] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:39:22,410] {logging_mixin.py:109} INFO - [2021-10-18 20:39:22,410] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:39:22,536] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:39:22,546] {logging_mixin.py:109} INFO - [2021-10-18 20:39:22,545] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:39:22,557] {logging_mixin.py:109} INFO - [2021-10-18 20:39:22,557] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:39:22,564] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.162 seconds
+[2021-10-18 20:39:52,632] {processor.py:163} INFO - Started process (PID=620) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:39:52,634] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:39:52,635] {logging_mixin.py:109} INFO - [2021-10-18 20:39:52,635] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:39:52,766] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:39:52,776] {logging_mixin.py:109} INFO - [2021-10-18 20:39:52,775] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:39:52,787] {logging_mixin.py:109} INFO - [2021-10-18 20:39:52,787] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:39:52,793] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.166 seconds
+[2021-10-18 20:40:22,857] {processor.py:163} INFO - Started process (PID=642) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:40:22,859] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:40:22,860] {logging_mixin.py:109} INFO - [2021-10-18 20:40:22,860] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:40:22,985] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:40:22,994] {logging_mixin.py:109} INFO - [2021-10-18 20:40:22,994] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:40:23,006] {logging_mixin.py:109} INFO - [2021-10-18 20:40:23,006] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:40:23,013] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.160 seconds
+[2021-10-18 20:40:53,072] {processor.py:163} INFO - Started process (PID=674) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:40:53,075] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:40:53,076] {logging_mixin.py:109} INFO - [2021-10-18 20:40:53,076] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:40:53,198] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:40:53,207] {logging_mixin.py:109} INFO - [2021-10-18 20:40:53,207] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:40:53,219] {logging_mixin.py:109} INFO - [2021-10-18 20:40:53,219] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:40:53,227] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.159 seconds
+[2021-10-18 20:41:23,303] {processor.py:163} INFO - Started process (PID=695) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:41:23,306] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:41:23,307] {logging_mixin.py:109} INFO - [2021-10-18 20:41:23,307] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:41:23,436] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:41:23,445] {logging_mixin.py:109} INFO - [2021-10-18 20:41:23,445] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:41:23,456] {logging_mixin.py:109} INFO - [2021-10-18 20:41:23,456] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:41:23,464] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.165 seconds
+[2021-10-18 20:41:53,512] {processor.py:163} INFO - Started process (PID=726) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:41:53,515] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:41:53,516] {logging_mixin.py:109} INFO - [2021-10-18 20:41:53,516] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:41:53,644] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:41:53,654] {logging_mixin.py:109} INFO - [2021-10-18 20:41:53,654] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:41:53,666] {logging_mixin.py:109} INFO - [2021-10-18 20:41:53,666] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:41:53,675] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.166 seconds
+[2021-10-18 20:42:23,740] {processor.py:163} INFO - Started process (PID=757) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:42:23,742] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:42:23,744] {logging_mixin.py:109} INFO - [2021-10-18 20:42:23,743] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:42:23,869] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:42:23,883] {logging_mixin.py:109} INFO - [2021-10-18 20:42:23,883] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:42:23,896] {logging_mixin.py:109} INFO - [2021-10-18 20:42:23,896] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:42:23,904] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.167 seconds
+[2021-10-18 20:42:53,963] {processor.py:163} INFO - Started process (PID=779) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:42:53,965] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:42:53,966] {logging_mixin.py:109} INFO - [2021-10-18 20:42:53,966] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:42:54,080] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:42:54,090] {logging_mixin.py:109} INFO - [2021-10-18 20:42:54,090] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:42:54,102] {logging_mixin.py:109} INFO - [2021-10-18 20:42:54,102] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:42:54,110] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.150 seconds
+[2021-10-18 20:43:24,165] {processor.py:163} INFO - Started process (PID=812) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:43:24,167] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:43:24,169] {logging_mixin.py:109} INFO - [2021-10-18 20:43:24,169] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:43:24,298] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:43:24,309] {logging_mixin.py:109} INFO - [2021-10-18 20:43:24,309] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:43:24,323] {logging_mixin.py:109} INFO - [2021-10-18 20:43:24,322] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:43:24,330] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.168 seconds
+[2021-10-18 20:43:54,397] {processor.py:163} INFO - Started process (PID=835) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:43:54,400] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:43:54,401] {logging_mixin.py:109} INFO - [2021-10-18 20:43:54,401] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:43:54,529] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:43:54,537] {logging_mixin.py:109} INFO - [2021-10-18 20:43:54,537] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:43:54,549] {logging_mixin.py:109} INFO - [2021-10-18 20:43:54,549] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:43:54,556] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.163 seconds
+[2021-10-18 20:44:24,616] {processor.py:163} INFO - Started process (PID=867) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:44:24,618] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:44:24,619] {logging_mixin.py:109} INFO - [2021-10-18 20:44:24,619] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:44:24,749] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:44:24,759] {logging_mixin.py:109} INFO - [2021-10-18 20:44:24,758] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:44:24,771] {logging_mixin.py:109} INFO - [2021-10-18 20:44:24,771] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:44:24,779] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.166 seconds

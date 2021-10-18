@@ -1,0 +1,320 @@
+[2021-10-18 19:43:40,597] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: Neo4jOlympicsDemo.create-db scheduled__2021-10-17T00:00:00+00:00 [queued]>
+[2021-10-18 19:43:40,607] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: Neo4jOlympicsDemo.create-db scheduled__2021-10-17T00:00:00+00:00 [queued]>
+[2021-10-18 19:43:40,607] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-18 19:43:40,608] {taskinstance.py:1242} INFO - Starting attempt 1 of 2
+[2021-10-18 19:43:40,608] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-18 19:43:40,622] {taskinstance.py:1262} INFO - Executing <Task(PythonOperator): create-db> on 2021-10-17 00:00:00+00:00
+[2021-10-18 19:43:40,630] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'Neo4jOlympicsDemo', 'create-db', 'scheduled__2021-10-17T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/olympics.py', '--cfg-path', '/tmp/tmpcgi0burq', '--error-file', '/tmp/tmpuz8azd9u']
+[2021-10-18 19:43:40,631] {standard_task_runner.py:77} INFO - Job 4: Subtask create-db
+[2021-10-18 19:43:40,627] {standard_task_runner.py:52} INFO - Started process 1304 to run task
+[2021-10-18 19:43:40,669] {logging_mixin.py:109} INFO - Running <TaskInstance: Neo4jOlympicsDemo.create-db scheduled__2021-10-17T00:00:00+00:00 [running]> on host 669b822470d9
+[2021-10-18 19:43:40,709] {taskinstance.py:1414} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=alexander.fournier@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Alexander Fournier
+AIRFLOW_CTX_DAG_ID=Neo4jOlympicsDemo
+AIRFLOW_CTX_TASK_ID=create-db
+AIRFLOW_CTX_EXECUTION_DATE=2021-10-17T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-10-17T00:00:00+00:00
+[2021-10-18 19:43:40,714] {simple.py:361} WARNING - Transaction failed and will be retried in 1.1447337400101618s (Couldn't connect to localhost:7687 (resolved to ('127.0.0.1:7687', '[::1]:7687')):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused)
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [Errno 99] Cannot assign requested address))
+[2021-10-18 19:43:41,867] {simple.py:361} WARNING - Transaction failed and will be retried in 1.8996510066689272s (Couldn't connect to localhost:7687 (resolved to ('127.0.0.1:7687', '[::1]:7687')):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused)
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [Errno 99] Cannot assign requested address))
+[2021-10-18 19:43:43,770] {simple.py:361} WARNING - Transaction failed and will be retried in 4.105460207446681s (Couldn't connect to localhost:7687 (resolved to ('127.0.0.1:7687', '[::1]:7687')):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused)
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [Errno 99] Cannot assign requested address))
+[2021-10-18 19:43:47,884] {simple.py:361} WARNING - Transaction failed and will be retried in 7.240951689794141s (Couldn't connect to localhost:7687 (resolved to ('127.0.0.1:7687', '[::1]:7687')):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused)
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [Errno 99] Cannot assign requested address))
+[2021-10-18 19:43:55,137] {simple.py:361} WARNING - Transaction failed and will be retried in 13.649889395894771s (Couldn't connect to localhost:7687 (resolved to ('127.0.0.1:7687', '[::1]:7687')):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused)
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [Errno 99] Cannot assign requested address))
+[2021-10-18 19:44:08,772] {simple.py:361} WARNING - Transaction failed and will be retried in 32.77623675316543s (Couldn't connect to localhost:7687 (resolved to ('127.0.0.1:7687', '[::1]:7687')):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused)
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [Errno 99] Cannot assign requested address))
+[2021-10-18 19:44:41,535] {taskinstance.py:1686} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 1181, in _connect
+    s.connect(resolved_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 1301, in connect
+    s = _connect(resolved_address, timeout, keep_alive)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 1195, in _connect
+    raise ServiceUnavailable("Failed to establish connection to {!r} (reason {})".format(resolved_address, error))
+neo4j.exceptions.ServiceUnavailable: Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1324, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1443, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1499, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 151, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 162, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/package/create_database.py", line 8, in create_database
+    db.write(q)
+  File "/opt/airflow/dags/package/connection.py", line 36, in write
+    return session.write_transaction(self.__run, query)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 434, in write_transaction
+    return self._run_transaction(WRITE_ACCESS, transaction_function, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 365, in _run_transaction
+    raise errors[-1]
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 335, in _run_transaction
+    self._open_transaction(access_mode=access_mode, database=self._config.database, metadata=metadata, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 271, in _open_transaction
+    self._connect(access_mode=access_mode, database=database)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 122, in _connect
+    bookmarks=self._bookmarks
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 810, in acquire
+    return self._acquire(self.address, timeout)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 665, in _acquire
+    connection = self.opener(address, timeout)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 794, in opener
+    **pool_config
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 314, in open
+    keep_alive=pool_config.keep_alive,
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 1323, in connect
+    ) from errors[0]
+neo4j.exceptions.ServiceUnavailable: Couldn't connect to localhost:7687 (resolved to ('127.0.0.1:7687', '[::1]:7687')):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused)
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [Errno 99] Cannot assign requested address)
+[2021-10-18 19:44:41,554] {taskinstance.py:1280} INFO - Marking task as UP_FOR_RETRY. dag_id=Neo4jOlympicsDemo, task_id=create-db, execution_date=20211017T000000, start_date=20211018T194340, end_date=20211018T194441
+[2021-10-18 19:44:41,564] {standard_task_runner.py:91} ERROR - Failed to execute job 4 for task create-db
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 1181, in _connect
+    s.connect(resolved_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 1301, in connect
+    s = _connect(resolved_address, timeout, keep_alive)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 1195, in _connect
+    raise ServiceUnavailable("Failed to establish connection to {!r} (reason {})".format(resolved_address, error))
+neo4j.exceptions.ServiceUnavailable: Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 292, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1324, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1443, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1499, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 151, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 162, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/package/create_database.py", line 8, in create_database
+    db.write(q)
+  File "/opt/airflow/dags/package/connection.py", line 36, in write
+    return session.write_transaction(self.__run, query)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 434, in write_transaction
+    return self._run_transaction(WRITE_ACCESS, transaction_function, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 365, in _run_transaction
+    raise errors[-1]
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 335, in _run_transaction
+    self._open_transaction(access_mode=access_mode, database=self._config.database, metadata=metadata, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 271, in _open_transaction
+    self._connect(access_mode=access_mode, database=database)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 122, in _connect
+    bookmarks=self._bookmarks
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 810, in acquire
+    return self._acquire(self.address, timeout)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 665, in _acquire
+    connection = self.opener(address, timeout)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 794, in opener
+    **pool_config
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 314, in open
+    keep_alive=pool_config.keep_alive,
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 1323, in connect
+    ) from errors[0]
+neo4j.exceptions.ServiceUnavailable: Couldn't connect to localhost:7687 (resolved to ('127.0.0.1:7687', '[::1]:7687')):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused)
+Failed to establish connection to ResolvedIPv6Address(('::1', 7687, 0, 0)) (reason [Errno 99] Cannot assign requested address)
+[2021-10-18 19:44:41,586] {local_task_job.py:154} INFO - Task exited with return code 1
+[2021-10-18 19:44:41,614] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2021-10-18 20:33:11,855] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: Neo4jOlympicsDemo.create-db scheduled__2021-10-17T00:00:00+00:00 [queued]>
+[2021-10-18 20:33:11,870] {taskinstance.py:1035} INFO - Dependencies all met for <TaskInstance: Neo4jOlympicsDemo.create-db scheduled__2021-10-17T00:00:00+00:00 [queued]>
+[2021-10-18 20:33:11,871] {taskinstance.py:1241} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-18 20:33:11,871] {taskinstance.py:1242} INFO - Starting attempt 1 of 2
+[2021-10-18 20:33:11,872] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-18 20:33:11,881] {taskinstance.py:1262} INFO - Executing <Task(PythonOperator): create-db> on 2021-10-17 00:00:00+00:00
+[2021-10-18 20:33:11,888] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'Neo4jOlympicsDemo', 'create-db', 'scheduled__2021-10-17T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/olympics.py', '--cfg-path', '/tmp/tmpi4vb0nli', '--error-file', '/tmp/tmpynic3og2']
+[2021-10-18 20:33:11,890] {standard_task_runner.py:77} INFO - Job 5: Subtask create-db
+[2021-10-18 20:33:11,885] {standard_task_runner.py:52} INFO - Started process 269 to run task
+[2021-10-18 20:33:11,929] {logging_mixin.py:109} INFO - Running <TaskInstance: Neo4jOlympicsDemo.create-db scheduled__2021-10-17T00:00:00+00:00 [running]> on host 668276dc515d
+[2021-10-18 20:33:11,967] {taskinstance.py:1414} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=alexander.fournier@gmail.com
+AIRFLOW_CTX_DAG_OWNER=Alexander Fournier
+AIRFLOW_CTX_DAG_ID=Neo4jOlympicsDemo
+AIRFLOW_CTX_TASK_ID=create-db
+AIRFLOW_CTX_EXECUTION_DATE=2021-10-17T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-10-17T00:00:00+00:00
+[2021-10-18 20:33:11,975] {simple.py:361} WARNING - Transaction failed and will be retried in 1.1625471173402657s (Couldn't connect to 127.0.0.1:7687 (resolved to ('127.0.0.1:7687',)):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused))
+[2021-10-18 20:33:13,139] {simple.py:361} WARNING - Transaction failed and will be retried in 2.2644148558696306s (Couldn't connect to 127.0.0.1:7687 (resolved to ('127.0.0.1:7687',)):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused))
+[2021-10-18 20:33:15,412] {simple.py:361} WARNING - Transaction failed and will be retried in 4.6306800448214025s (Couldn't connect to 127.0.0.1:7687 (resolved to ('127.0.0.1:7687',)):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused))
+[2021-10-18 20:33:20,049] {simple.py:361} WARNING - Transaction failed and will be retried in 7.383675154206777s (Couldn't connect to 127.0.0.1:7687 (resolved to ('127.0.0.1:7687',)):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused))
+[2021-10-18 20:33:27,442] {simple.py:361} WARNING - Transaction failed and will be retried in 13.798459803616758s (Couldn't connect to 127.0.0.1:7687 (resolved to ('127.0.0.1:7687',)):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused))
+[2021-10-18 20:33:41,236] {simple.py:361} WARNING - Transaction failed and will be retried in 33.07488167713764s (Couldn't connect to 127.0.0.1:7687 (resolved to ('127.0.0.1:7687',)):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused))
+[2021-10-18 20:34:14,325] {taskinstance.py:1686} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 1181, in _connect
+    s.connect(resolved_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 1301, in connect
+    s = _connect(resolved_address, timeout, keep_alive)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 1195, in _connect
+    raise ServiceUnavailable("Failed to establish connection to {!r} (reason {})".format(resolved_address, error))
+neo4j.exceptions.ServiceUnavailable: Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1324, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1443, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1499, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 151, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 162, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/package/create_database.py", line 8, in create_database
+    db.write(q)
+  File "/opt/airflow/dags/package/connection.py", line 36, in write
+    return session.write_transaction(self.__run, query)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 434, in write_transaction
+    return self._run_transaction(WRITE_ACCESS, transaction_function, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 365, in _run_transaction
+    raise errors[-1]
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 335, in _run_transaction
+    self._open_transaction(access_mode=access_mode, database=self._config.database, metadata=metadata, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 271, in _open_transaction
+    self._connect(access_mode=access_mode, database=database)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 122, in _connect
+    bookmarks=self._bookmarks
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 810, in acquire
+    return self._acquire(self.address, timeout)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 665, in _acquire
+    connection = self.opener(address, timeout)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 794, in opener
+    **pool_config
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 314, in open
+    keep_alive=pool_config.keep_alive,
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 1323, in connect
+    ) from errors[0]
+neo4j.exceptions.ServiceUnavailable: Couldn't connect to 127.0.0.1:7687 (resolved to ('127.0.0.1:7687',)):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused)
+[2021-10-18 20:34:14,340] {taskinstance.py:1280} INFO - Marking task as UP_FOR_RETRY. dag_id=Neo4jOlympicsDemo, task_id=create-db, execution_date=20211017T000000, start_date=20211018T203311, end_date=20211018T203414
+[2021-10-18 20:34:14,352] {standard_task_runner.py:91} ERROR - Failed to execute job 5 for task create-db
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 1181, in _connect
+    s.connect(resolved_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 1301, in connect
+    s = _connect(resolved_address, timeout, keep_alive)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 1195, in _connect
+    raise ServiceUnavailable("Failed to establish connection to {!r} (reason {})".format(resolved_address, error))
+neo4j.exceptions.ServiceUnavailable: Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 292, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1324, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1443, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1499, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 151, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 162, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/package/create_database.py", line 8, in create_database
+    db.write(q)
+  File "/opt/airflow/dags/package/connection.py", line 36, in write
+    return session.write_transaction(self.__run, query)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 434, in write_transaction
+    return self._run_transaction(WRITE_ACCESS, transaction_function, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 365, in _run_transaction
+    raise errors[-1]
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 335, in _run_transaction
+    self._open_transaction(access_mode=access_mode, database=self._config.database, metadata=metadata, timeout=timeout)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 271, in _open_transaction
+    self._connect(access_mode=access_mode, database=database)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/work/simple.py", line 122, in _connect
+    bookmarks=self._bookmarks
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 810, in acquire
+    return self._acquire(self.address, timeout)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 665, in _acquire
+    connection = self.opener(address, timeout)
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 794, in opener
+    **pool_config
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 314, in open
+    keep_alive=pool_config.keep_alive,
+  File "/home/airflow/.local/lib/python3.6/site-packages/neo4j/io/__init__.py", line 1323, in connect
+    ) from errors[0]
+neo4j.exceptions.ServiceUnavailable: Couldn't connect to 127.0.0.1:7687 (resolved to ('127.0.0.1:7687',)):
+Failed to establish connection to ResolvedIPv4Address(('127.0.0.1', 7687)) (reason [Errno 111] Connection refused)
+[2021-10-18 20:34:14,380] {local_task_job.py:154} INFO - Task exited with return code 1
+[2021-10-18 20:34:14,412] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
