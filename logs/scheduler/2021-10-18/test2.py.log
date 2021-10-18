@@ -1307,3 +1307,17 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not connect t
 [2021-10-18 17:12:19,873] {logging_mixin.py:109} INFO - [2021-10-18 17:12:19,873] {dag.py:2389} INFO - Sync 1 DAGs
 [2021-10-18 17:12:19,892] {logging_mixin.py:109} INFO - [2021-10-18 17:12:19,891] {dag.py:2914} INFO - Setting next_dagrun for my_dag to 2016-01-01T00:00:00+00:00
 [2021-10-18 17:12:19,902] {processor.py:171} INFO - Processing /opt/airflow/dags/test2.py took 0.082 seconds
+[2021-10-18 17:12:50,373] {processor.py:163} INFO - Started process (PID=2573) to work on /opt/airflow/dags/test2.py
+[2021-10-18 17:12:50,375] {processor.py:620} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2021-10-18 17:12:50,376] {logging_mixin.py:109} INFO - [2021-10-18 17:12:50,376] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2021-10-18 17:12:50,403] {processor.py:632} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/test2.py
+[2021-10-18 17:12:50,414] {logging_mixin.py:109} INFO - [2021-10-18 17:12:50,414] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 17:12:50,429] {logging_mixin.py:109} INFO - [2021-10-18 17:12:50,429] {dag.py:2914} INFO - Setting next_dagrun for my_dag to 2016-01-01T00:00:00+00:00
+[2021-10-18 17:12:50,436] {processor.py:171} INFO - Processing /opt/airflow/dags/test2.py took 0.067 seconds
+[2021-10-18 17:13:20,869] {processor.py:163} INFO - Started process (PID=2628) to work on /opt/airflow/dags/test2.py
+[2021-10-18 17:13:20,871] {processor.py:620} INFO - Processing file /opt/airflow/dags/test2.py for tasks to queue
+[2021-10-18 17:13:20,873] {logging_mixin.py:109} INFO - [2021-10-18 17:13:20,873] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/test2.py
+[2021-10-18 17:13:20,902] {processor.py:632} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /opt/airflow/dags/test2.py
+[2021-10-18 17:13:20,914] {logging_mixin.py:109} INFO - [2021-10-18 17:13:20,914] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 17:13:20,933] {logging_mixin.py:109} INFO - [2021-10-18 17:13:20,933] {dag.py:2914} INFO - Setting next_dagrun for my_dag to 2016-01-01T00:00:00+00:00
+[2021-10-18 17:13:20,948] {processor.py:171} INFO - Processing /opt/airflow/dags/test2.py took 0.084 seconds

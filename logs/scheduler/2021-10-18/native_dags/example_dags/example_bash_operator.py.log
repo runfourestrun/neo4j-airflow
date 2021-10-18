@@ -1244,3 +1244,17 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate
 [2021-10-18 17:12:03,183] {logging_mixin.py:109} INFO - [2021-10-18 17:12:03,182] {dag.py:2389} INFO - Sync 1 DAGs
 [2021-10-18 17:12:03,198] {logging_mixin.py:109} INFO - [2021-10-18 17:12:03,198] {dag.py:2914} INFO - Setting next_dagrun for example_bash_operator to 2021-10-17 00:00:00+00:00
 [2021-10-18 17:12:03,206] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py took 0.074 seconds
+[2021-10-18 17:12:33,696] {processor.py:163} INFO - Started process (PID=2535) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-10-18 17:12:33,697] {processor.py:620} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-10-18 17:12:33,698] {logging_mixin.py:109} INFO - [2021-10-18 17:12:33,698] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-10-18 17:12:33,730] {processor.py:632} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-10-18 17:12:33,740] {logging_mixin.py:109} INFO - [2021-10-18 17:12:33,740] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 17:12:33,753] {logging_mixin.py:109} INFO - [2021-10-18 17:12:33,753] {dag.py:2914} INFO - Setting next_dagrun for example_bash_operator to 2021-10-17 00:00:00+00:00
+[2021-10-18 17:12:33,761] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py took 0.068 seconds
+[2021-10-18 17:13:04,091] {processor.py:163} INFO - Started process (PID=2600) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-10-18 17:13:04,093] {processor.py:620} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2021-10-18 17:13:04,094] {logging_mixin.py:109} INFO - [2021-10-18 17:13:04,094] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-10-18 17:13:04,130] {processor.py:632} INFO - DAG(s) dict_keys(['example_bash_operator']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py
+[2021-10-18 17:13:04,141] {logging_mixin.py:109} INFO - [2021-10-18 17:13:04,141] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 17:13:04,157] {logging_mixin.py:109} INFO - [2021-10-18 17:13:04,156] {dag.py:2914} INFO - Setting next_dagrun for example_bash_operator to 2021-10-17 00:00:00+00:00
+[2021-10-18 17:13:04,165] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py took 0.077 seconds

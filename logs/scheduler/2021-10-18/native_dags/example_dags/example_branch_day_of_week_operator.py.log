@@ -1379,3 +1379,10 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate
 [2021-10-18 17:12:29,239] {logging_mixin.py:109} INFO - [2021-10-18 17:12:29,239] {dag.py:2389} INFO - Sync 1 DAGs
 [2021-10-18 17:12:29,255] {logging_mixin.py:109} INFO - [2021-10-18 17:12:29,255] {dag.py:2914} INFO - Setting next_dagrun for example_weekday_branch_operator to 2021-10-17 00:00:00+00:00
 [2021-10-18 17:12:29,263] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.070 seconds
+[2021-10-18 17:12:59,698] {processor.py:163} INFO - Started process (PID=2584) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2021-10-18 17:12:59,700] {processor.py:620} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2021-10-18 17:12:59,701] {logging_mixin.py:109} INFO - [2021-10-18 17:12:59,701] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2021-10-18 17:12:59,730] {processor.py:632} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2021-10-18 17:12:59,740] {logging_mixin.py:109} INFO - [2021-10-18 17:12:59,740] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 17:12:59,755] {logging_mixin.py:109} INFO - [2021-10-18 17:12:59,755] {dag.py:2914} INFO - Setting next_dagrun for example_weekday_branch_operator to 2021-10-17 00:00:00+00:00
+[2021-10-18 17:12:59,762] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.068 seconds

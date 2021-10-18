@@ -1272,3 +1272,10 @@ sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate
 [2021-10-18 17:12:27,131] {logging_mixin.py:109} INFO - [2021-10-18 17:12:27,131] {dag.py:2389} INFO - Sync 1 DAGs
 [2021-10-18 17:12:27,149] {logging_mixin.py:109} INFO - [2021-10-18 17:12:27,149] {dag.py:2914} INFO - Setting next_dagrun for latest_only to 2021-10-18T13:12:27.149173+00:00
 [2021-10-18 17:12:27,159] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py took 0.075 seconds
+[2021-10-18 17:12:57,600] {processor.py:163} INFO - Started process (PID=2582) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+[2021-10-18 17:12:57,601] {processor.py:620} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-10-18 17:12:57,602] {logging_mixin.py:109} INFO - [2021-10-18 17:12:57,602] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+[2021-10-18 17:12:57,630] {processor.py:632} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+[2021-10-18 17:12:57,641] {logging_mixin.py:109} INFO - [2021-10-18 17:12:57,641] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 17:12:57,656] {logging_mixin.py:109} INFO - [2021-10-18 17:12:57,656] {dag.py:2914} INFO - Setting next_dagrun for latest_only to 2021-10-18T13:12:57.655929+00:00
+[2021-10-18 17:12:57,665] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py took 0.069 seconds
