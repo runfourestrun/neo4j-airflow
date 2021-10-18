@@ -4,8 +4,9 @@ from airflow.providers.neo4j.operators.neo4j import Neo4jOperator
 from airflow.operators.python_operator import PythonOperator
 from airflow.utils.dates import days_ago
 from datetime import timedelta,datetime
-from connection import Neo4j
-from create_databases import create_database
+from package.create_database import create_database
+from package.create_constraints import create_constraints
+from package.load_athletes import load_athletes
 
 default_args = {
     'owner': 'Alexander Fournier',
@@ -17,14 +18,12 @@ default_args = {
 }
 
 
-connection_credentials = {username:'neo4j',password:'Reddit123!',database:'system'}
 
-def create_database(**kwargs):
-    print(kwargs['username'])
+
 
 
 dag = DAG(
-    dag_id='Neo4j-Olympics-Demo',
+    dag_id='Neo4jOlympicsDemo',
     description='Pulling Tabular Olmypic Domain data and importing it into Graph',
     default_args=default_args,
     schedule_interval=timedelta(days=1),
@@ -35,11 +34,26 @@ dag = DAG(
 
 with dag:
     t1 = PythonOperator(
-        task_id='Create Database in Neo4j using a Python Operator',
+        task_id='create-db',
         python_callable=create_database,
-        op_kwargs = {username:'neo4j',password:'Reddit123!',database:'system'},
+        op_kwargs = {'username':'neo4j','password':'Reddit123!','database':'system'},
         dag =dag,
+    )
+    
+    t2 = PythonOperator(
+        task_id='create_constrants',
+        python_callable=create_constraints,
+        op_kwargs = {'username':'neo4j','password':'Reddit123!','database':'system'},
+        dag = dag,
     )
 
 
-t1
+    t3 = PythonOperator(
+        task_id='load_athletes',
+        python_callable=load_athletes,
+        op_kwargs = {'username':'neo4j','password':'Reddit123!','database':'system'},
+        dag = dag,
+    )
+
+
+t1 >> t2 >> t3
