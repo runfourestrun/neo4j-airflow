@@ -2563,3 +2563,17 @@ ImportError: cannot import name 'load_athletes'
 [2021-10-18 20:44:24,759] {logging_mixin.py:109} INFO - [2021-10-18 20:44:24,758] {dag.py:2389} INFO - Sync 1 DAGs
 [2021-10-18 20:44:24,771] {logging_mixin.py:109} INFO - [2021-10-18 20:44:24,771] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
 [2021-10-18 20:44:24,779] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.166 seconds
+[2021-10-18 20:44:54,852] {processor.py:163} INFO - Started process (PID=889) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:44:54,853] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:44:54,854] {logging_mixin.py:109} INFO - [2021-10-18 20:44:54,854] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:44:54,969] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:44:54,979] {logging_mixin.py:109} INFO - [2021-10-18 20:44:54,979] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:44:54,992] {logging_mixin.py:109} INFO - [2021-10-18 20:44:54,992] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:44:54,999] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.151 seconds
+[2021-10-18 20:45:25,062] {processor.py:163} INFO - Started process (PID=920) to work on /opt/airflow/dags/olympics.py
+[2021-10-18 20:45:25,065] {processor.py:620} INFO - Processing file /opt/airflow/dags/olympics.py for tasks to queue
+[2021-10-18 20:45:25,066] {logging_mixin.py:109} INFO - [2021-10-18 20:45:25,066] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/olympics.py
+[2021-10-18 20:45:25,208] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4jOlympicsDemo']) retrieved from /opt/airflow/dags/olympics.py
+[2021-10-18 20:45:25,217] {logging_mixin.py:109} INFO - [2021-10-18 20:45:25,217] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 20:45:25,229] {logging_mixin.py:109} INFO - [2021-10-18 20:45:25,229] {dag.py:2914} INFO - Setting next_dagrun for Neo4jOlympicsDemo to 2021-10-18T00:00:00+00:00
+[2021-10-18 20:45:25,237] {processor.py:171} INFO - Processing /opt/airflow/dags/olympics.py took 0.179 seconds
