@@ -1,6 +1,5 @@
 FROM apache/airflow:2.2.0
 
-ENV AIRFLOW__CORE__LOAD_EXAMPLES=False
 
 RUN pip install --no-cache-dir neo4j==4.3.4  \
     && pip install --no-cache-dir boto3==1.18.60 \
