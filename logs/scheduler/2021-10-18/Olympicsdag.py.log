@@ -1,0 +1,369 @@
+[2021-10-18 18:04:26,971] {processor.py:163} INFO - Started process (PID=1261) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:04:26,972] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:04:26,973] {logging_mixin.py:109} INFO - [2021-10-18 18:04:26,973] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:04:27,091] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4j-Olympics-Demo']) retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:04:27,331] {logging_mixin.py:109} INFO - [2021-10-18 18:04:27,331] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 18:04:27,340] {logging_mixin.py:109} INFO - [2021-10-18 18:04:27,340] {dag.py:2914} INFO - Setting next_dagrun for Neo4j-Olympics-Demo to 2021-10-16T00:00:00+00:00
+[2021-10-18 18:04:27,349] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.382 seconds
+[2021-10-18 18:04:57,432] {processor.py:163} INFO - Started process (PID=1282) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:04:57,433] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:04:57,435] {logging_mixin.py:109} INFO - [2021-10-18 18:04:57,435] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:04:57,552] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4j-Olympics-Demo']) retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:04:57,561] {logging_mixin.py:109} INFO - [2021-10-18 18:04:57,561] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 18:04:57,570] {logging_mixin.py:109} INFO - [2021-10-18 18:04:57,570] {dag.py:2914} INFO - Setting next_dagrun for Neo4j-Olympics-Demo to 2021-10-16T00:00:00+00:00
+[2021-10-18 18:04:57,577] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.149 seconds
+[2021-10-18 18:05:27,645] {processor.py:163} INFO - Started process (PID=1314) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:05:27,647] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:05:27,648] {logging_mixin.py:109} INFO - [2021-10-18 18:05:27,648] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:05:27,771] {processor.py:632} INFO - DAG(s) dict_keys(['Neo4j-Olympics-Demo']) retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:05:27,783] {logging_mixin.py:109} INFO - [2021-10-18 18:05:27,783] {dag.py:2389} INFO - Sync 1 DAGs
+[2021-10-18 18:05:27,796] {logging_mixin.py:109} INFO - [2021-10-18 18:05:27,796] {dag.py:2914} INFO - Setting next_dagrun for Neo4j-Olympics-Demo to 2021-10-16T00:00:00+00:00
+[2021-10-18 18:05:27,805] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.163 seconds
+[2021-10-18 18:05:43,850] {processor.py:163} INFO - Started process (PID=1325) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:05:43,851] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:05:43,852] {logging_mixin.py:109} INFO - [2021-10-18 18:05:43,852] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:05:43,858] {logging_mixin.py:109} INFO - [2021-10-18 18:05:43,857] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 20
+    def create_database()
+                        ^
+SyntaxError: invalid syntax
+[2021-10-18 18:05:43,875] {processor.py:668} INFO - Deactivated 1 DAGs which are no longer present in /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:05:43,876] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:05:43,882] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.036 seconds
+[2021-10-18 18:06:13,965] {processor.py:163} INFO - Started process (PID=1356) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:06:13,967] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:06:13,969] {logging_mixin.py:109} INFO - [2021-10-18 18:06:13,968] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:06:13,975] {logging_mixin.py:109} INFO - [2021-10-18 18:06:13,974] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 20
+    def create_database()
+                        ^
+SyntaxError: invalid syntax
+[2021-10-18 18:06:13,993] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:06:14,001] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.040 seconds
+[2021-10-18 18:06:31,033] {processor.py:163} INFO - Started process (PID=1368) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:06:31,035] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:06:31,036] {logging_mixin.py:109} INFO - [2021-10-18 18:06:31,036] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:06:31,041] {logging_mixin.py:109} INFO - [2021-10-18 18:06:31,040] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 22
+    def create_database()
+                        ^
+SyntaxError: invalid syntax
+[2021-10-18 18:06:31,056] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:06:31,062] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.032 seconds
+[2021-10-18 18:07:01,139] {processor.py:163} INFO - Started process (PID=1400) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:07:01,141] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:07:01,142] {logging_mixin.py:109} INFO - [2021-10-18 18:07:01,142] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:07:01,146] {logging_mixin.py:109} INFO - [2021-10-18 18:07:01,146] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 22
+    def create_database()
+                        ^
+SyntaxError: invalid syntax
+[2021-10-18 18:07:01,161] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:07:01,167] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.031 seconds
+[2021-10-18 18:07:08,168] {processor.py:163} INFO - Started process (PID=1401) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:07:08,170] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:07:08,170] {logging_mixin.py:109} INFO - [2021-10-18 18:07:08,170] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:07:08,176] {logging_mixin.py:109} INFO - [2021-10-18 18:07:08,176] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 22
+    def create_database()
+                        ^
+SyntaxError: invalid syntax
+[2021-10-18 18:07:08,191] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:07:08,197] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.033 seconds
+[2021-10-18 18:07:36,282] {processor.py:163} INFO - Started process (PID=1433) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:07:36,284] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:07:36,285] {logging_mixin.py:109} INFO - [2021-10-18 18:07:36,284] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:07:36,290] {logging_mixin.py:109} INFO - [2021-10-18 18:07:36,290] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 24
+    dag = DAG(
+      ^
+IndentationError: expected an indented block
+[2021-10-18 18:07:36,304] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:07:36,311] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.032 seconds
+[2021-10-18 18:08:06,382] {processor.py:163} INFO - Started process (PID=1454) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:08:06,384] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:08:06,385] {logging_mixin.py:109} INFO - [2021-10-18 18:08:06,384] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:08:06,389] {logging_mixin.py:109} INFO - [2021-10-18 18:08:06,389] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 24
+    dag = DAG(
+      ^
+IndentationError: expected an indented block
+[2021-10-18 18:08:06,403] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:08:06,411] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.032 seconds
+[2021-10-18 18:08:36,484] {processor.py:163} INFO - Started process (PID=1485) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:08:36,486] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:08:36,487] {logging_mixin.py:109} INFO - [2021-10-18 18:08:36,487] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:08:36,494] {logging_mixin.py:109} INFO - [2021-10-18 18:08:36,493] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 24
+    dag = DAG(
+      ^
+IndentationError: expected an indented block
+[2021-10-18 18:08:36,513] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:08:36,521] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.041 seconds
+[2021-10-18 18:09:06,608] {processor.py:163} INFO - Started process (PID=1507) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:09:06,610] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:09:06,611] {logging_mixin.py:109} INFO - [2021-10-18 18:09:06,611] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:09:06,617] {logging_mixin.py:109} INFO - [2021-10-18 18:09:06,616] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 24
+    dag = DAG(
+      ^
+IndentationError: expected an indented block
+[2021-10-18 18:09:06,634] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:09:06,642] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.037 seconds
+[2021-10-18 18:09:36,733] {processor.py:163} INFO - Started process (PID=1538) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:09:36,735] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:09:36,736] {logging_mixin.py:109} INFO - [2021-10-18 18:09:36,736] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:09:36,741] {logging_mixin.py:109} INFO - [2021-10-18 18:09:36,740] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 24
+    dag = DAG(
+      ^
+IndentationError: expected an indented block
+[2021-10-18 18:09:36,756] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:09:36,762] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.032 seconds
+[2021-10-18 18:10:06,857] {processor.py:163} INFO - Started process (PID=1560) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:10:06,859] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:10:06,860] {logging_mixin.py:109} INFO - [2021-10-18 18:10:06,860] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:10:06,867] {logging_mixin.py:109} INFO - [2021-10-18 18:10:06,866] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 24
+    dag = DAG(
+      ^
+IndentationError: expected an indented block
+[2021-10-18 18:10:06,884] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:10:06,891] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.038 seconds
+[2021-10-18 18:10:36,959] {processor.py:163} INFO - Started process (PID=1591) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:10:36,961] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:10:36,962] {logging_mixin.py:109} INFO - [2021-10-18 18:10:36,962] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:10:36,967] {logging_mixin.py:109} INFO - [2021-10-18 18:10:36,967] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 24
+    dag = DAG(
+      ^
+IndentationError: expected an indented block
+[2021-10-18 18:10:36,982] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:10:36,988] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.033 seconds
+[2021-10-18 18:11:07,063] {processor.py:163} INFO - Started process (PID=1612) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:11:07,064] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:11:07,066] {logging_mixin.py:109} INFO - [2021-10-18 18:11:07,066] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:11:07,072] {logging_mixin.py:109} INFO - [2021-10-18 18:11:07,071] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 781, in get_code
+  File "<frozen importlib._bootstrap_external>", line 741, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 24
+    dag = DAG(
+      ^
+IndentationError: expected an indented block
+[2021-10-18 18:11:07,090] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:11:07,097] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.038 seconds
+[2021-10-18 18:11:34,155] {processor.py:163} INFO - Started process (PID=1643) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:11:34,157] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:11:34,158] {logging_mixin.py:109} INFO - [2021-10-18 18:11:34,158] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:11:34,267] {logging_mixin.py:109} INFO - [2021-10-18 18:11:34,266] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 20, in <module>
+    connection_credentials = {username:'neo4j',password:'Reddit123!',database:'system'}
+NameError: name 'username' is not defined
+[2021-10-18 18:11:34,280] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:11:34,285] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.133 seconds
+[2021-10-18 18:12:04,364] {processor.py:163} INFO - Started process (PID=1664) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:12:04,365] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:12:04,366] {logging_mixin.py:109} INFO - [2021-10-18 18:12:04,366] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:12:04,472] {logging_mixin.py:109} INFO - [2021-10-18 18:12:04,470] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 20, in <module>
+    connection_credentials = {username:'neo4j',password:'Reddit123!',database:'system'}
+NameError: name 'username' is not defined
+[2021-10-18 18:12:04,486] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:12:04,491] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.131 seconds
+[2021-10-18 18:12:34,555] {processor.py:163} INFO - Started process (PID=1695) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:12:34,557] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:12:34,558] {logging_mixin.py:109} INFO - [2021-10-18 18:12:34,558] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:12:34,664] {logging_mixin.py:109} INFO - [2021-10-18 18:12:34,662] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 20, in <module>
+    connection_credentials = {username:'neo4j',password:'Reddit123!',database:'system'}
+NameError: name 'username' is not defined
+[2021-10-18 18:12:34,678] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:12:34,683] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.132 seconds
+[2021-10-18 18:13:04,755] {processor.py:163} INFO - Started process (PID=1716) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:13:04,757] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:13:04,758] {logging_mixin.py:109} INFO - [2021-10-18 18:13:04,758] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:13:04,858] {logging_mixin.py:109} INFO - [2021-10-18 18:13:04,856] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 20, in <module>
+    connection_credentials = {username:'neo4j',password:'Reddit123!',database:'system'}
+NameError: name 'username' is not defined
+[2021-10-18 18:13:04,872] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:13:04,878] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.126 seconds
+[2021-10-18 18:13:30,847] {processor.py:163} INFO - Started process (PID=1747) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:13:30,849] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:13:30,850] {logging_mixin.py:109} INFO - [2021-10-18 18:13:30,850] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:13:30,959] {logging_mixin.py:109} INFO - [2021-10-18 18:13:30,957] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 20, in <module>
+    connection_credentials = {username:'neo4j',password:'Reddit123!',database:'system'}
+NameError: name 'username' is not defined
+[2021-10-18 18:13:30,973] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:13:30,979] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.136 seconds
+[2021-10-18 18:14:01,017] {processor.py:163} INFO - Started process (PID=1769) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:14:01,018] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:14:01,019] {logging_mixin.py:109} INFO - [2021-10-18 18:14:01,019] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:14:01,121] {logging_mixin.py:109} INFO - [2021-10-18 18:14:01,120] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 20, in <module>
+    connection_credentials = {username:'neo4j',password:'Reddit123!',database:'system'}
+NameError: name 'username' is not defined
+[2021-10-18 18:14:01,135] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:14:01,141] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.127 seconds
+[2021-10-18 18:14:31,215] {processor.py:163} INFO - Started process (PID=1801) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:14:31,218] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:14:31,219] {logging_mixin.py:109} INFO - [2021-10-18 18:14:31,219] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:14:31,317] {logging_mixin.py:109} INFO - [2021-10-18 18:14:31,316] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 20, in <module>
+    connection_credentials = {username:'neo4j',password:'Reddit123!',database:'system'}
+NameError: name 'username' is not defined
+[2021-10-18 18:14:31,333] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:14:31,338] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.127 seconds
+[2021-10-18 18:15:01,411] {processor.py:163} INFO - Started process (PID=1822) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:15:01,413] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:15:01,414] {logging_mixin.py:109} INFO - [2021-10-18 18:15:01,414] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:15:01,514] {logging_mixin.py:109} INFO - [2021-10-18 18:15:01,512] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 20, in <module>
+    connection_credentials = {username:'neo4j',password:'Reddit123!',database:'system'}
+NameError: name 'username' is not defined
+[2021-10-18 18:15:01,528] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:15:01,533] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.126 seconds
+[2021-10-18 18:15:31,597] {processor.py:163} INFO - Started process (PID=1854) to work on /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:15:31,599] {processor.py:620} INFO - Processing file /opt/airflow/dags/Olympicsdag.py for tasks to queue
+[2021-10-18 18:15:31,600] {logging_mixin.py:109} INFO - [2021-10-18 18:15:31,600] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:15:31,724] {logging_mixin.py:109} INFO - [2021-10-18 18:15:31,722] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/Olympicsdag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Olympicsdag.py", line 20, in <module>
+    connection_credentials = {username:'neo4j',password:'Reddit123!',database:'system'}
+NameError: name 'username' is not defined
+[2021-10-18 18:15:31,739] {processor.py:634} WARNING - No viable dags retrieved from /opt/airflow/dags/Olympicsdag.py
+[2021-10-18 18:15:31,745] {processor.py:171} INFO - Processing /opt/airflow/dags/Olympicsdag.py took 0.151 seconds
