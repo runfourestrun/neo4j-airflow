@@ -18,7 +18,7 @@ airflow docker-compose pulled from here: https://airflow.apache.org/docs/apache-
 * $HOME/neo4j_docker_mounts/data
 * $HOME/neo4j_docker_mounts/logs
 
-4. **Copy neo4j.conf to $HOME/neo4j_docker_mounts/conf**
+4. **Copy neo4j.conf to $HOME/neo4j_docker_mounts/conf **
 
 
 5. **Run **
@@ -26,7 +26,7 @@ airflow docker-compose pulled from here: https://airflow.apache.org/docs/apache-
 docker-compose up airflow-init
 ```
 
-6. **Run**
+6. **Run **
 ```
 docker-compose up
 ```
