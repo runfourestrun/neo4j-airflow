@@ -36,7 +36,7 @@ with dag:
     t1 = PythonOperator(
         task_id='create-db',
         python_callable=create_database,
-        op_kwargs = {'username':'neo4j','password':'Reddit123!','database':'system'},
+        op_kwargs = {'username':'neo4j','password':'test','database':'system'},
         dag =dag,
     )
     
@@ -56,4 +56,4 @@ with dag:
     )
 
 
-t1 >> t2 >> t3
+t2 >> t3

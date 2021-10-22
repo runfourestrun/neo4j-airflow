@@ -7,9 +7,9 @@ class Neo4j():
     """
 
     def __init__(self, *args, **kwargs):
-        url = kwargs.get('url', 'bolt://127.0.0.1:7687/')
+        url = kwargs.get('url', 'bolt://neo4j:7687/')
         username = kwargs.get('username', 'neo4j')
-        password = kwargs.get('password', 'letmein')
+        password = kwargs.get('password', 'Reddit123!')
         database = kwargs.get('database', 'neo4j')
         self.client = GraphDatabase.driver(url, auth=(username, password), database=database)
 

@@ -49,7 +49,6 @@ x-airflow-common:
   image: fournier/airflow
   environment:
     &airflow-common-env
-    AIRFLOW__CORE__LOAD_EXAMPLES:  False
     AIRFLOW__CORE__EXECUTOR: CeleryExecutor
     AIRFLOW__CORE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
     AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
@@ -271,6 +270,17 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
+  neo4j:
+    image: neo4j:latest
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - NEO4J_dbms_security_procedures_unrestricted=apoc.*
+    volumes:
+      - ${HOME}/neo4j_docker_mounts/data:/data
+      - ${HOME}/neo4j_docker_mounts/logs:/logs
+      - ${HOME}/neo4j_docker_mounts/conf:/conf
 
 volumes:
   postgres-db-volume:

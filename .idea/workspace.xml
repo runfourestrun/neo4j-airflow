@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38db231d-2880-465b-8cdf-e82572c2a899" name="Changes" comment="creating a dockerfile and adding a cleanup shell script">
-      <change afterPath="$PROJECT_DIR$/dags/package/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dags/package/create_constraints.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dags/package/load_athletes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/package/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/package/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/package/create_database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
+    <list default="true" id="38db231d-2880-465b-8cdf-e82572c2a899" name="Changes" comment="adding dags + apt-get since I can't reach my host">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/airflow-webserver.pid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/airflow-worker.pid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dags/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/package/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dags/create_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/package/create_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/airflow-webserver.pid" beforeDir="false" afterPath="$PROJECT_DIR$/config/airflow-webserver.pid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dags/olympics.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/olympics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dags/package/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/package/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dags/package/create_constraints.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/package/create_constraints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dags/package/create_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/package/create_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dags/package/load_athletes.py" beforeDir="false" afterPath="$PROJECT_DIR$/dags/package/load_athletes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/dag_processor_manager/dag_processor_manager.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/dag_processor_manager/dag_processor_manager.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/scheduler/2021-10-18/olympics.py.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/2021-10-18/olympics.py.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/scheduler/latest" beforeDir="false" afterPath="$PROJECT_DIR$/logs/scheduler/latest" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634226293454</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="adding dags + apt-get since I can't reach my host">
+      <created>1634587124141</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634587124141</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +238,7 @@
     <MESSAGE value="editing docker-compose to include requirements.txt" />
     <MESSAGE value="Trying to get a DAG visibile.." />
     <MESSAGE value="creating a dockerfile and adding a cleanup shell script" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating a dockerfile and adding a cleanup shell script" />
+    <MESSAGE value="adding dags + apt-get since I can't reach my host" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding dags + apt-get since I can't reach my host" />
   </component>
 </project>

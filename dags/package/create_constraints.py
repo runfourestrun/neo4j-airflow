@@ -4,7 +4,7 @@ from package.connection import Neo4j
 def create_constraints(**kwargs):
     db = Neo4j(username=kwargs.get('username'),password=kwargs.get('password'),database=kwargs.get('database'))
     cypher = '''
-    :USE olympics1;
+    :USE neo4j;
     
     CREATE CONSTRAINT IF NOT EXISTS
     ON (p:Person)
@@ -30,5 +30,5 @@ def create_constraints(**kwargs):
     ON (s:Sport)
     ASSERT s.name IS UNIQUE;
     '''
-    dw.write(cypher)
+    db.write(cypher)
     

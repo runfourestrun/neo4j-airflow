@@ -4,7 +4,7 @@ from package.connection import Neo4j
 def load_athletes(**kwargs):
     db = Neo4j(username=kwargs.get('username'),password=kwargs.get('password'),database=kwargs.get('database'))
     q = '''
-    :USE Olympics1;
+    :USE neo4j;
     
     // Let's introduce a second CSV file... :/
     
