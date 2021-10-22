@@ -1,8 +1,8 @@
-## Airflow to orchestrate personal Neo4j projects
+# Airflow to orchestrate personal Neo4j projects
 
 ![](https://github.com/runfourestrun/neo4j-airflow/blob/master/images/img.png)
 
-Graphs to orchestrate:
+## Graphs to orchestrate:
 
 * Olympics
 
