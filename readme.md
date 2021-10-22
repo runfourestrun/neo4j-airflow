@@ -13,20 +13,20 @@ airflow docker-compose pulled from here: https://airflow.apache.org/docs/apache-
 * $AIRFLOW_HOME/confg
 * $AIRFLOW_HOME/dags
 * $AIRFLOW_HOME/logs
-2. **Create volumes for Neo4j: **
+2. **Create volumes for Neo4j:**
 * $HOME/neo4j_docker_mounts/conf
 * $HOME/neo4j_docker_mounts/data
 * $HOME/neo4j_docker_mounts/logs
 
-4. **Copy neo4j.conf to $HOME/neo4j_docker_mounts/conf **
+4. **Copy neo4j.conf to $HOME/neo4j_docker_mounts/conf**
 
 
-5. **Run **
+5. **Run**
 ```
 docker-compose up airflow-init
 ```
 
-6. **Run **
+6. **Run**
 ```
 docker-compose up
 ```
