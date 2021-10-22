@@ -17,7 +17,9 @@ Graphs to orchestrate:
 
 ## Neo4j Docker Image testing:
 
+```
 docker pull neo4j:latest -t neo-alexander-image
+
 
 docker run \
     --name neo-alexander-image \
@@ -28,3 +30,4 @@ docker run \
     -v $HOME/neo4j_docker_mounts/conf:/conf \
     --env NEO4J_AUTH=neo4j/test \
     neo4j:latest
+```
