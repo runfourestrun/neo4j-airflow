@@ -20,8 +20,33 @@ airflow docker-compose pulled from here: https://airflow.apache.org/docs/apache-
 
 4. Copy neo4j.conf to $HOME/neo4j_docker_mounts/conf
 
-2. Pull latest neo4j enterprise image and run it
 
+5. Run 
+```
+docker-compose up airflow-init
+```
+
+6. Run 
+```
+docker-compose up
+```
+
+
+## Graphs to orchestrate:
+
+* Olympics
+
+
+## Problems:
+* When I trigger a dag from airflow (which is hosted in a docker-compose - it is unable to connect to localhost database... 
+
+
+
+
+
+
+
+Sample Neo4j Docker Run command
 
 ```
 
@@ -38,28 +63,5 @@ docker run \
     
   
 ```
-
-
-
-3. Run 
-```
-docker-compose up airflow-init
-```
-
-4. Run 
-```
-docker-compose up
-```
-
-
-## Graphs to orchestrate:
-
-* Olympics
-
-
-## Problems:
-* When I trigger a dag from airflow (which is hosted in a docker-compose - it is unable to connect to localhost database... 
-
-
 
 
