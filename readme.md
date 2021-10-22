@@ -38,8 +38,7 @@ docker-compose up
 
 
 ## Problems:
-* When I trigger a dag from airflow (which is hosted in a docker-compose - it is unable to connect to localhost database... 
-
+* I think there is just bad cypher since I'm getting an error 
 
 
 
