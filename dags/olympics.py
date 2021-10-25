@@ -5,7 +5,7 @@ from airflow.operators.python_operator import PythonOperator
 from airflow.utils.dates import days_ago
 from datetime import timedelta,datetime
 from package.create_database import create_database
-from package.create_constraints import create_constraints
+from package.create_constraints import *
 from package.load_athletes import load_athletes
 
 default_args = {
@@ -41,19 +41,53 @@ with dag:
     )
     
     t2 = PythonOperator(
-        task_id='create_constrants',
-        python_callable=create_constraints,
-        op_kwargs = {'username':'neo4j','password':'Reddit123!','database':'system'},
+        task_id='create_person_not_null_constraints',
+        python_callable=create_person_not_null_constraints,
+        op_kwargs = {'username':'neo4j','password':'test','database':'Olympics'},
         dag = dag,
     )
-
 
     t3 = PythonOperator(
-        task_id='load_athletes',
-        python_callable=load_athletes,
-        op_kwargs = {'username':'neo4j','password':'Reddit123!','database':'system'},
+        task_id='create_person_unique_constraints',
+        python_callable=create_person_unique_constraints,
+        op_kwargs = {'username':'neo4j','password':'test','database':'Olympics'},
+        dag = dag,
+    )
+
+    t4 = PythonOperator(
+        task_id='create_country_not_null_constraint',
+        python_callable=create_country_not_null_constraint,
+        op_kwargs = {'username':'neo4j','password':'test','database':'Olympics'},
+        dag = dag,
+    )
+
+    t5 = PythonOperator(
+        task_id='create_country_unique_constraints',
+        python_callable=create_country_unique_constraints,
+        op_kwargs = {'username':'neo4j','password':'test','database':'Olympics'},
+        dag = dag,
+    )
+
+    t6 = PythonOperator(
+        task_id='create_sport_not_null_constraints',
+        python_callable=create_sport_not_null_constraints,
+        op_kwargs = {'username':'neo4j','password':'test','database':'Olympics'},
+        dag = dag,
+    )
+
+    t7 = PythonOperator(
+        task_id='create_sport_unique_constraint',
+        python_callable=create_sport_unique_constraint,
+        op_kwargs = {'username':'neo4j','password':'test','database':'Olympics'},
         dag = dag,
     )
 
 
-t2 >> t3
+    t8 = PythonOperator(
+        task_id='load_athletes',
+        python_callable=load_athletes,
+        op_kwargs = {'username':'neo4j','password':'test','database':'Olympics'},
+        dag = dag,
+    )
+
+t1 >> t2 >> t3 >> t4 >> t5 >> t6 >> t7 >> t8
